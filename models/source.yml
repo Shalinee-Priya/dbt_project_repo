@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw_src
+    database:  DBT_PROJECT_DB 
+    schema:   DBT_PROJECT_SCHEMA
+    tables:
+      - name: RAW_CUSTOMERS_DBT
+      - name: RAW_ORDERS_DBT
+      - name: RAW_ORDER_ITEMS_DBT
+      - name: RAW_PAYMENTS_DBT
+      - name: RAW_PRODUCTS_DBT

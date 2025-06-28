@@ -1,0 +1,1 @@
+select trans_id, amount, balance from DBT_PROJECT_DB.DBT_PROJECT_SCHEMA.SP_TRANSACTIONS
